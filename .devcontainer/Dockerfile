@@ -59,3 +59,6 @@ ENV DEBIAN_FRONTEND=dialog
 
 # Set the default shell to bash rather than sh
 ENV SHELL /bin/bash
+
+#ENV GOPATH /go
+ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH
